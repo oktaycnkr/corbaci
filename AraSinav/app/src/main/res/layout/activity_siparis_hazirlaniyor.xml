@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SiparisHazirlaniyor">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="84dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="466dp"
+        android:text="İçinde"
+        android:textColor="#B14A4A"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="84dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="466dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="231dp"
+        android:text="Olsun"
+        android:textColor="#B14A4A"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginBottom="656dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oc" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="344dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="547dp"
+        android:text="Bir Çeeek ve Olsun"
+        android:textColor="#AE4E4E"
+        android:textSize="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="393dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="150dp"
+        android:text="Ekstra İstek:"
+        android:textColor="#A34B4B"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="658dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/carpi" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="105dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="598dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="99dp"
+        android:clickable="false"
+        android:text="Yeni Sipariş"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:id="@+id/siparis"
+        android:layout_width="247dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="88dp"
+        android:src="@drawable/siparis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="381dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="295dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textColor="#9A4444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
